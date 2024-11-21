@@ -48,7 +48,7 @@ const WordPredictionQuiz = () => {
   };
 
   const normalizeWord = (word) => {
-    return word.toLowerCase().trim().replace(/[.,!?]$/, '');
+    return word.toLowerCase().trim().replace(/[.,!?:]$/, '');
   };
 
   const handleAnswer = () => {
